@@ -1,0 +1,35 @@
+{
+  "name": "romanize",
+  "description": "Convert Roman numbers to real numbers and vice verca",
+  "version": "0.0.1",
+  "main": "index.ts",
+  "dependencies": {
+    "typescript": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharunspi/romanize.git"
+  },
+  "keywords": [
+    "roman",
+    "to",
+    "numbers",
+    "number",
+    "to",
+    "roman",
+    "roman"
+  ],
+  "author": "sharun1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sharunspi/romanize/issues"
+  },
+  "homepage": "https://github.com/sharunspi/romanize#readme"
+  
+}
