@@ -17,13 +17,13 @@ To install the Romanize-Numbers library, use the following command:
 To use the Romanize-Numbers library in your project, you can import it as follows:
 
 ```javascript
-const romanize = require("romanize-numbers");
+const { numberToRoman } = require("romanize-numbers");
 ```
 
 You can then use the romanize function to convert Arabic numerals into their Roman numeral equivalents:
 
 ```javascript
-const romanNumeral = romanize(123);
+const romanNumeral = numberToRoman("big", 123);
 console.log(romanNumeral); // "CXXIII"
 ```
 
@@ -40,13 +40,13 @@ The Roman numeral equivalent of the input number as a string.
 ## Examples
 
 ```javascript
-const romanize = require("romanize-numbers");
+const { numberToRoman } = require("romanize-numbers");
 
-console.log(romanize(1)); // "I"
-console.log(romanize(4)); // "IV"
-console.log(romanize(9)); // "IX"
-console.log(romanize(42)); // "XLII"
-console.log(romanize(3999)); // "MMMCMXCIX"
+console.log(numberToRoman("small", 1)); // "i"
+console.log(numberToRoman("small", 4)); // "iv"
+console.log(numberToRoman("big", 9)); // "IX"
+console.log(numberToRoman("big", 42)); // "XLII"
+console.log(romanumberToRomannize("big", 3999)); // "MMMCMXCIX"
 ```
 
 ## License

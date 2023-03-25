@@ -1,1 +1,4 @@
-export { romanToReal } from "./src/num2rom";
+const normalise = require("./src/num2rom");
+module.exports = {
+  numberToRoman: normalise.numberToRoman,
+};

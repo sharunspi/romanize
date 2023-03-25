@@ -1,4 +1,4 @@
-export const romanToReal = (type: "small" | "big", num: number) => {
+function numberToRoman(type: "small" | "big", num: number) {
   if (typeof num !== "number") {
     throw new Error("Input value should be number ");
   }
@@ -56,4 +56,7 @@ export const romanToReal = (type: "small" | "big", num: number) => {
     }
     return result;
   }
+}
+module.exports = {
+  numberToRoman,
 };
