@@ -7,8 +7,10 @@
     "typescript": "^5.0.2"
   },
   "devDependencies": {
+    "@types/jest": "^29.5.0",
     "@types/node": "^18.15.7",
-    "jest": "^29.5.0"
+    "jest": "^29.5.0",
+    "ts-jest": "^29.0.5"
   },
   "scripts": {
     "test": "jest"
@@ -33,5 +35,8 @@
   "bugs": {
     "url": "https://github.com/sharunspi/romanize/issues"
   },
-  "homepage": "https://github.com/sharunspi/romanize#readme"
+  "homepage": "https://github.com/sharunspi/romanize#readme",
+  "jest": {
+    "preset": "ts-jest"
+  }
 }
