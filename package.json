@@ -1,7 +1,7 @@
 {
   "name": "romanize-numbers",
   "description": "Convert Roman numbers to real numbers and vice verca",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.ts",
   "dependencies": {
     "typescript": "^5.0.2"
@@ -31,5 +31,4 @@
     "url": "https://github.com/sharunspi/romanize/issues"
   },
   "homepage": "https://github.com/sharunspi/romanize#readme"
-  
 }
