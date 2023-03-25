@@ -1,5 +1,5 @@
 {
-  "name": "romanize",
+  "name": "romanize-numbers",
   "description": "Convert Roman numbers to real numbers and vice verca",
   "version": "0.0.1",
   "main": "index.ts",
